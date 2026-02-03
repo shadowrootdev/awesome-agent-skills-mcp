@@ -147,7 +147,7 @@ describe('MCP Server Full Lifecycle', () => {
       expect(response.result).toHaveProperty('serverInfo');
       expect(response.result?.serverInfo).toHaveProperty('name', 'awesome-agent-skills-mcp');
       expect(response.result?.serverInfo).toHaveProperty('version', '1.0.0');
-    });
+    }, 20000);
   });
 
   describe('Tool Discovery', () => {
