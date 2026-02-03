@@ -1,9 +1,13 @@
 # Awesome Agent Skills MCP Server
 
+[![CI](https://github.com/shadowrootdev/awesome-agent-skills-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/shadowrootdev/awesome-agent-skills-mcp/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/awesome-agent-skills-mcp.svg)](https://www.npmjs.com/package/awesome-agent-skills-mcp)
+[![npm downloads](https://img.shields.io/npm/dm/awesome-agent-skills-mcp.svg)](https://www.npmjs.com/package/awesome-agent-skills-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/node/v/awesome-agent-skills-mcp.svg)](https://nodejs.org)
-[![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-blue.svg)](https://modelcontextprotocol.io)
+[![MCP Compatible](https://img.shields.io/badge/MCP-2024--11--05-blue.svg)](https://modelcontextprotocol.io)
+[![GitHub release](https://img.shields.io/github/v/release/shadowrootdev/awesome-agent-skills-mcp)](https://github.com/shadowrootdev/awesome-agent-skills-mcp/releases)
+[![GitHub stars](https://img.shields.io/github/stars/shadowrootdev/awesome-agent-skills-mcp)](https://github.com/shadowrootdev/awesome-agent-skills-mcp/stargazers)
 
 > **A Model Context Protocol (MCP) server that provides access to 100+ curated AI agent skills from the [VoltAgent Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) collection.**
 
