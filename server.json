@@ -1,0 +1,54 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.shadowrootdev/awesome-agent-skills",
+  "description": "MCP server providing 100+ AI agent skills from Anthropic, Vercel, Trail of Bits, Hugging Face, Stripe, Expo, n8n, Sanity, Neon, Remotion & more. Works with Claude, GitHub Copilot, and any MCP client.",
+  "repository": {
+    "url": "https://github.com/shadowrootdev/awesome-agent-skills-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "awesome-agent-skills-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "SKILLS_REPO_URL",
+          "description": "URL of the skills repository to sync from",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "default": "https://github.com/VoltAgent/awesome-agent-skills.git"
+        },
+        {
+          "name": "SKILLS_CACHE_DIR",
+          "description": "Directory path for caching skills data",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "default": ".cache"
+        },
+        {
+          "name": "SKILLS_SYNC_INTERVAL",
+          "description": "Auto-sync interval in minutes (0 to disable)",
+          "isRequired": false,
+          "format": "number",
+          "isSecret": false,
+          "default": "60"
+        },
+        {
+          "name": "LOG_LEVEL",
+          "description": "Logging level (debug, info, warn, error)",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "default": "info"
+        }
+      ]
+    }
+  ]
+}

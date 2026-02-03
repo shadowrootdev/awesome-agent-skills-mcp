@@ -1,6 +1,7 @@
 {
   "name": "awesome-agent-skills-mcp",
   "version": "1.0.0",
+  "mcpName": "io.github.shadowrootdev/awesome-agent-skills",
   "description": "MCP server that exposes 100+ AI agent skills from the VoltAgent awesome-agent-skills collection. Works with Claude, GitHub Copilot, and any MCP-compatible client.",
   "main": "dist/index.js",
   "type": "module",
