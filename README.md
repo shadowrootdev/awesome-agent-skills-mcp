@@ -1,6 +1,8 @@
 # Awesome Agent Skills MCP Server
 
 [![CI](https://github.com/shadowrootdev/awesome-agent-skills-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/shadowrootdev/awesome-agent-skills-mcp/actions/workflows/ci.yml)
+[![Security Audit](https://github.com/shadowrootdev/awesome-agent-skills-mcp/actions/workflows/security-audit.yml/badge.svg)](https://github.com/shadowrootdev/awesome-agent-skills-mcp/actions/workflows/security-audit.yml)
+[![CodeQL](https://github.com/shadowrootdev/awesome-agent-skills-mcp/actions/workflows/codeql.yml/badge.svg)](https://github.com/shadowrootdev/awesome-agent-skills-mcp/actions/workflows/codeql.yml)
 [![npm version](https://img.shields.io/npm/v/awesome-agent-skills-mcp.svg)](https://www.npmjs.com/package/awesome-agent-skills-mcp)
 [![npm downloads](https://img.shields.io/npm/dm/awesome-agent-skills-mcp.svg)](https://www.npmjs.com/package/awesome-agent-skills-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -475,13 +477,36 @@ Skills in this collection are contributed by leading organizations including:
 
 ## Contributing
 
-Contributions are welcome! Please read our contributing guidelines before submitting PRs.
+Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) before submitting PRs.
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+See our [issue templates](.github/ISSUE_TEMPLATE) for reporting bugs, requesting features, or asking questions.
+
+---
+
+## Documentation & Demo
+
+### GitHub Pages
+
+You can enable GitHub Pages to host interactive documentation or demos:
+
+1. Go to your repository **Settings** → **Pages**
+2. Select **Source**: Deploy from a branch
+3. Choose **Branch**: `main` and folder `/docs` or `/`
+4. Save and wait for deployment
+
+This is useful for:
+- Interactive API documentation
+- Live demos of MCP server capabilities
+- Tutorial walkthroughs
+- Skill catalog browser
+
+To set up GitHub Pages, create a `docs/` directory with an `index.html` file or use a static site generator like VitePress or Docusaurus.
 
 ---
 

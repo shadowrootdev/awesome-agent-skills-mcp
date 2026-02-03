@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/shadowrootdev/awesome-agent-skills-mcp#readme
+    about: Read the README for detailed documentation
+  - name: VoltAgent Awesome Agent Skills
+    url: https://github.com/VoltAgent/awesome-agent-skills
+    about: Visit the source repository for skill contributions
