@@ -9,6 +9,14 @@
 
 Transform your AI assistants into specialized experts with skills from Anthropic, Vercel, Trail of Bits, Hugging Face, Stripe, Expo, and many more leading organizations.
 
+## 🚀 Quick Start
+
+```bash
+npx awesome-agent-skills-mcp
+```
+
+That's it! Add to your MCP client config and start using 100+ AI skills.
+
 ---
 
 ## Table of Contents
