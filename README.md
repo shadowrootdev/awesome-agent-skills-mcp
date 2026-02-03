@@ -495,10 +495,16 @@ See our [issue templates](.github/ISSUE_TEMPLATE) for reporting bugs, requesting
 
 You can enable GitHub Pages to host interactive documentation or demos:
 
-1. Go to your repository **Settings** → **Pages**
-2. Select **Source**: Deploy from a branch
-3. Choose **Branch**: `main` and folder `/docs` or `/`
-4. Save and wait for deployment
+1. **Create your documentation** (recommended: use `/docs` folder):
+   - Create a `docs/` directory in your repository root
+   - Add an `index.html` file or use a static site generator like VitePress or Docusaurus
+   - This keeps documentation separate from source code
+
+2. **Enable GitHub Pages**:
+   - Go to your repository **Settings** → **Pages**
+   - Select **Source**: Deploy from a branch
+   - Choose **Branch**: `main` and folder `/docs` (recommended) or `/` if deploying entire repo
+   - Save and wait for deployment
 
 This is useful for:
 - Interactive API documentation
@@ -506,7 +512,7 @@ This is useful for:
 - Tutorial walkthroughs
 - Skill catalog browser
 
-To set up GitHub Pages, create a `docs/` directory with an `index.html` file or use a static site generator like VitePress or Docusaurus.
+> **Note**: Using the `/docs` folder is recommended as it keeps documentation organized and separate from source code. Only use `/` (root) if you want to deploy the entire repository as a website.
 
 ---
 
