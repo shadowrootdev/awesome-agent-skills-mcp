@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "awesome-agent-skills": {
+      "command": "node",
+      "args": ["/Users/elmehdi/dev/awesome-agent-skills/dist/index.js"]
+    }
+  }
+}
