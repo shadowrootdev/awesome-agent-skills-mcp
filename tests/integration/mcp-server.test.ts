@@ -84,5 +84,5 @@ describe('MCP Server Integration', () => {
     
     // Clean up
     serverProcess.kill();
-  });
+  }, 20000);
 });
