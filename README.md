@@ -516,6 +516,7 @@ This is useful for:
 
 ---
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring MCP for AI agent wallets on Solana. Verify agent wallet identity and autonomy score before authorizing x402 micropayments in agent skill pipelines. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
