@@ -304,6 +304,16 @@ Manually trigger a skills refresh from the repository.
 @workspace Get the stripe-best-practices skill and apply it to my checkout code
 ```
 
+### Social & X/Twitter Workflows
+
+```
+@workspace List skills for X/Twitter automation, tweet search, replies, posting, media, direct messages, monitors, and giveaways
+```
+
+```
+@workspace Get the tweetclaw skill and review setup before using X/Twitter tools
+```
+
 ### In Claude
 
 ```
@@ -463,7 +473,7 @@ Skills in this collection are contributed by leading organizations including:
 - [Hugging Face](https://github.com/huggingface/skills) - ML workflows, model training
 - [Sentry](https://github.com/getsentry/skills) - Code review, commit conventions
 - [Expo](https://github.com/expo/skills) - React Native development
-- [Stripe](https://github.com/stripe/skills) - Payment integrations
+- [Stripe](https://officialskills.sh/stripe/skills/stripe-best-practices) - Payment integrations
 - And many more contributors!
 
 ### Technologies
