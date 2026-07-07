@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/shadowrootdev-awesome-agent-skills-mcp-badge.png)](https://mseep.ai/app/shadowrootdev-awesome-agent-skills-mcp)
+
 # Awesome Agent Skills MCP Server
 
 [![CI](https://github.com/shadowrootdev/awesome-agent-skills-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/shadowrootdev/awesome-agent-skills-mcp/actions/workflows/ci.yml)
